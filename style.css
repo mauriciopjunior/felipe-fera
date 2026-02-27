@@ -638,11 +638,21 @@ footer {
     .glass-panel {
         height: 350px;
         width: 100vw;
+        margin-left: -5vw;
+        margin-right: -5vw;
         position: relative;
-        left: 50%;
-        transform: translateX(-50%);
-        margin: 0;
+        left: 0;
+        transform: none;
         border-radius: 0;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    .about-image {
+        width: 100vw;
+        display: flex;
+        justify-content: center;
     }
 
     .contact {
